@@ -9,16 +9,6 @@ async function getAllProduct() {
   // console.log(res.data.products)
   return res.data.products
 }
-// ;(async () => {
-//   const allProduct = await getAllProduct()
-//   mapArray(allProduct)
-//   // allProduct.map((pr) => console.log(pr.title))
-// })()
-
-// function mapArray(pr) {
-//   const allProduct = pr
-//   return allProduct
-// }
 
 function App() {
   const [allProduct, setAllProduct] = useState([])
