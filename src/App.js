@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
 import Search from './components/Search'
-import initialDetails from './data/products'
 
 async function getAllProduct() {
   const res = await axios.get('https://dummyjson.com/products')
